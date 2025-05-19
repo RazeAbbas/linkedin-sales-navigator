@@ -9,7 +9,7 @@ class LinkedInScraper {
 
     async init() {
         // Check login status
-        await this.checkLoginStatus();
+        // await this.checkLoginStatus();
         
         // Load saved data
         await this.loadSavedData();
